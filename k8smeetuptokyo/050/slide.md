@@ -110,10 +110,10 @@ https://docs.harvesterhci.io/v1.0/assets/architecture.svg
 ### Spec requirements
 |Type|Requirements|
 |--|--|
-|CPU |	x86_64 only. Hardware-assisted virtualization is required. 8-core processor minimum; 16-core or above preferred |
-|Memory |	32 GB minimum, 64 GB or above preferred |
+|CPU |	**x86_64 only**. Hardware-assisted virtualization is required. **8-core processor minimum**; 16-core or above preferred |
+|Memory |	**32 GB minimum**, 64 GB or above preferred |
 |Disk Capacity |	140 GB minimum, 500 GB or above preferred |
-|Disk Performance |	5,000+ random IOPS per disk(SSD/NVMe). Management nodes (first 3 nodes) must be fast enough for Etcd. |
+|Disk Performance |	**5,000+ random IOPS per disk(SSD/NVMe)**. Management nodes (first 3 nodes) must be fast enough for Etcd. |
 |Network Card |	1 Gbps Ethernet minimum, 10Gbps Ethernet recommended |
 
 ---
