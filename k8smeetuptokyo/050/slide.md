@@ -4,7 +4,8 @@ paginate: true
 ---
 
 # Harvesterで始める自宅プライベートクラウド
-Tsuzu([@\_tsuzu\_](https://twitter.com/_tsuzu_))
+Tsuzu([@\_tsuzu\_](https://twitter.com/_tsuzu_)) @ Kubernetes Meetup Tokyo #50
+![bg 50% blur](https://www.suse.com/c/wp-content/uploads/2021/12/Harvester-Symbol.jpeg)
 
 ---
 # Who am I?
@@ -14,6 +15,10 @@ Tsuzu([@\_tsuzu\_](https://twitter.com/_tsuzu_))
 - Name: TSUHIYA Tsuzuki
 - Like: Go/Kubernetes/cluster-api
 - Hobby: RFA, Automation Games(ex. factorio)
+<br>
+<span style="font-size: 12px">The Go gopher was designed by Renee French</span>
+
+![bg right:40% 60%](./tP-F3e4H_400x400-2.jpg)
 
 ---
 # Agenda
@@ -32,6 +37,7 @@ Tsuzu([@\_tsuzu\_](https://twitter.com/_tsuzu_))
 - https://github.com/harvester/harvester
 - Rancher Labsが開発する **Hyper-converged Infrastructure** を実現するソフトウェア
     - Rancher LabsはSUSEに2020年に買収された
+![bg right:30% 80%](./Harvester-Symbol.jpeg)
 
 ---
 # Hyper-converged infrastructure
@@ -51,6 +57,7 @@ Tsuzu([@\_tsuzu\_](https://twitter.com/_tsuzu_))
 - OpenStackやVMware vSphereに(比較的)近い存在
 - VM管理機能、分散ブロックストレージを持つ
 - 最新 v1.0.1(2022/04/27 現在)
+![bg right:30% 80%](./Harvester-Symbol.jpeg)
 
 ---
 # Harvesterの仕組み
@@ -66,12 +73,14 @@ https://docs.harvesterhci.io/v1.0/assets/architecture.svg
     - https://www.cncf.io/blog/2022/04/19/kubevirt-becomes-a-cncf-incubating-project/
 - 最新 v0.52.0 (2022/04/27現在)
 
+![bg right:35% 60%](./kubevirt-icon-color.svg)
+
 ---
 # KubeVirt Pros
 - Kubernetesの資産が使える
     - コントローラによるReconciliation Loop
-    - CNI
-    - CSI
+    - CNI: Container Network Interface
+    - CSI: Container Storage Interface
 - コンテナ化していない/出来ないアプリケーションをKubernetes上で管理できる
 
 ---
@@ -88,6 +97,8 @@ https://docs.harvesterhci.io/v1.0/assets/architecture.svg
 - KubeVirt + Longhorn + ...
 - multus: 複数のNIC及びCNIプラグインを併用するためのCNIプラグイン
 - Prometheus/Grafana: 監視
+- kube-vip: Control Planeの冗長化
+- openSUSE Leap: メンテナンスコストが低いOS
 - Web UI
 - ([Terraform Provider](https://docs.harvesterhci.io/v1.0/terraform/terraform/))
 
@@ -136,6 +147,12 @@ https://docs.harvesterhci.io/v1.0/assets/architecture.svg
 - KubeVirtでVMを起動できる環境が簡単に建てられる
 - 分散ブロックストレージも監視もついてくる
 - 必要リソースが大きめ(Intel NUCとかだと厳しい)
+
+---
+# 参考文献
+- https://docs.harvesterhci.io/v1.0/
+- https://kubevirt.io/user-guide/
+- https://github.com/k8snetworkplumbingwg/multus-cni
 
 ---
 # Appendix
