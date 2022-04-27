@@ -34,8 +34,8 @@ Tsuzu([@\_tsuzu\_](https://twitter.com/_tsuzu_))
 > Hyperconverged infrastructure (HCI) is a software-defined IT infrastructure that virtualizes all of the elements of conventional "hardware-defined" systems. HCI includes, at a minimum, virtualized computing (a hypervisor), software-defined storage, and virtualized networking.
 > ... are implemented virtually in software (at or via the hypervisor) rather than physically in hardware.
 
-- VM、ストレージ、ネットワーク等がソフトウェアによって仮想的に実現されている
-- 別途共有ストレージなどが必要なく物理サーバ1台のみで実現可能
+- VM、ストレージ、ネットワーク等がソフトウェアによって仮想的に実現
+- 別途共有ストレージなどが必要なく物理サーバ1台から構築可能
 - [Wikipedia(en)](https://en.wikipedia.org/wiki/Hyper-converged_infrastructure) より引用
 
 ---
