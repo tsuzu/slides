@@ -23,6 +23,10 @@ Tsuzu([@\_tsuzu\_](https://twitter.com/_tsuzu_))
 - まとめ
 
 ---
+# 自宅でプライベートクラウドを作りたい
+# →自宅でVM建てまくりたい
+
+---
 # Harvesterとは?
 - https://harvesterhci.io
 - https://github.com/harvester/harvester
